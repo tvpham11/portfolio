@@ -5,11 +5,13 @@
   font-size: 1.5em; }
 
 .headerimg {
-  width: 100%;
-  height: 100vh; }
+  width: 100%; }
 
 .footer-logo {
   display: inline-block;
   margin: 5px; }
   .footer-logo:hover {
     font-size: 1.2em; }
+
+.activator {
+  max-height: 248px; }

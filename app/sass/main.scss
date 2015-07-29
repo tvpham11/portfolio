@@ -7,8 +7,8 @@
   font-size: 1.5em; }
 
 .headerimg {
-  width: 100%;
-  height: 100vh; }
+  // height: 100vh;
+  width: 100%; }
 
 // Footer
 .footer-logo {
@@ -18,3 +18,12 @@
   &:hover {
     font-size: 1.2em; }
 }
+
+// Main
+
+// Main - About
+
+
+// Main - Work
+.activator {
+  max-height: 248px; }
