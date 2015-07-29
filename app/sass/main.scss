@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+// Header
+.header-logo {
+  font-size: 1.5em; }
+
+.headerimg {
+  width: 100%;
+  height: 100vh; }
+
+// Footer
+.footer-logo {
+  display: inline-block;
+  margin: 5px;
+
+  &:hover {
+    font-size: 1.2em; }
+}
