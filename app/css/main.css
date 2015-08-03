@@ -1,17 +1,62 @@
 * {
   box-sizing: border-box; }
 
+body {
+  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif; }
+
+h1 {
+  font-size: 3.5em;
+  font-family: 'Life Savers', cursive;
+  font-weight: 700; }
+
+h2 {
+  font-size: 3em;
+  font-family: 'Life Savers', cursive;
+  font-weight: 700;
+  padding: 0; }
+
+.fa-angle-double-up {
+  font-size: 2em;
+  color: #bf360c; }
+
+a {
+  color: #bf360c; }
+
+.navlink {
+  font-size: 1.2em;
+  font-family: 'Life Savers', cursive;
+  font-weight: 700; }
+
 .header-logo {
   font-size: 1.5em; }
 
 .headerimg {
+  background-image: url("../assets/Flowers.jpg");
+  background-repeat: no-repeat;
+  height: calc(100vh - 60px);
   width: 100%; }
+
+.headertxt {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  display: inline-block; }
+
+#headertitle {
+  padding-top: 0;
+  font-family: 'Life Savers', cursive;
+  font-weight: 700;
+  font-weight: 400; }
+
+.appdesc {
+  font-size: 1.2em; }
+
+.createdby:hover {
+  font-weight: 500; }
 
 .footer-logo {
   display: inline-block;
   margin: 5px; }
   .footer-logo:hover {
-    font-size: 1.2em; }
-
-.activator {
-  max-height: 248px; }
+    font-size: 1.1em; }

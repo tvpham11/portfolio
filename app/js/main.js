@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('.parallax').parallax();
+});
+
 ;(function () {
 
   'use strict';

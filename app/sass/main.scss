@@ -1,22 +1,69 @@
+@mixin lifeSavers {
+  font-family: 'Life Savers', cursive;
+  font-weight: 700;
+}
+
+$deep-orange-darken-4: #bf360c;
+
 * {
   box-sizing: border-box;
 }
 
+body {
+  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  @include lifeSavers;
+}
+
+h2 {
+  font-size: 3em;
+  @include lifeSavers;
+  padding: 0;
+}
+
+.fa-angle-double-up {
+  font-size: 2em;
+  color: $deep-orange-darken-4;
+}
+
+a {
+  color: $deep-orange-darken-4;
+}
+
+// Nav
+.navlink {
+  font-size: 1.2em;
+  @include lifeSavers;
+}
+
+
 // Header
 .header-logo {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 .headerimg {
-  // height: 100vh;
-  width: 100%; }
+  background-image: url("../assets/Flowers.jpg");
+  background-repeat: no-repeat;
+  height: calc(100vh - 60px);
+  width: 100%;
+}
 
-// Footer
-.footer-logo {
+.headertxt {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
   display: inline-block;
-  margin: 5px;
+}
 
-  &:hover {
-    font-size: 1.2em; }
+#headertitle {
+  padding-top: 0;
+  @include lifeSavers;
+  font-weight: 400;
 }
 
 // Main
@@ -25,5 +72,22 @@
 
 
 // Main - Work
-.activator {
-  max-height: 248px; }
+.appdesc {
+  font-size: 1.2em;
+}
+
+// Footer
+.createdby {
+  &:hover {
+    font-weight: 500;
+  }
+}
+
+.footer-logo {
+  display: inline-block;
+  margin: 5px;
+
+  &:hover {
+    font-size: 1.1em;
+  }
+}
