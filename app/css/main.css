@@ -15,6 +15,10 @@ h2 {
   font-weight: 700;
   padding: 0; }
 
+h5 {
+  font-family: 'Life Savers', cursive;
+  font-weight: 700; }
+
 .fa-angle-double-up {
   font-size: 2em;
   color: #bf360c; }

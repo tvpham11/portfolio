@@ -24,6 +24,10 @@ h2 {
   padding: 0;
 }
 
+h5 {
+  @include lifeSavers;
+}
+
 .fa-angle-double-up {
   font-size: 2em;
   color: $deep-orange-darken-4;
