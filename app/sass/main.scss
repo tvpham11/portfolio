@@ -4,6 +4,9 @@
 }
 
 $deep-orange-darken-4: #bf360c;
+$deep-orange-lighten-3: #ffab91;
+$grey-lighten-3: #EEEEEE;
+$grey: #9e9e9e;
 
 * {
   box-sizing: border-box;
@@ -11,6 +14,7 @@ $deep-orange-darken-4: #bf360c;
 
 body {
   font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  background-color: $grey-lighten-3;
 }
 
 h1 {
@@ -49,13 +53,6 @@ a {
   font-size: 1.5em;
 }
 
-.headerimg {
-  background-image: url("../assets/Flowers.jpg");
-  background-repeat: no-repeat;
-  height: calc(100vh - 60px);
-  width: 100%;
-}
-
 .headertxt {
   margin-top: 0;
   margin-bottom: 15px;
@@ -71,13 +68,54 @@ a {
 }
 
 // Main
+.body-section {
+  margin-top: 3.5em;
+  margin-bottom: 5em;
+}
 
-// Main - About
+.body-text {
+  font-size: 1.4em;
+  margin-top: 0.3em;
+}
 
+.divider {
+  height: 0.3em;
+  background-color: $grey;
+}
 
 // Main - Work
+.card {
+  margin: 1rem 1.5rem;
+  padding: 0 !important;
+  background-color: $deep-orange-lighten-3;
+}
+
+.card-content {
+  padding: 10px !important;
+}
+
+img.activator {
+  height: 220px;
+}
+
+p.card-title {
+  font-size: 1.4em !important;
+}
+
+.see-app {
+  display: inline-block;
+  float: left;
+  padding-bottom: 0.5em !important;
+}
+
+.see-code {
+  display: inline-block;
+  float: right;
+  padding-bottom: 0.5em !important;
+}
+
 .appdesc {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 // Footer
