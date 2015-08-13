@@ -3,8 +3,8 @@
   font-weight: 700;
 }
 
-$deep-orange-darken-4: #bf360c;
-$deep-orange-lighten-3: #ffab91;
+$cyan-darken-2: #0097a7;
+$cyan-lighten-4: #b2ebf2;
 $grey-lighten-3: #EEEEEE;
 $grey: #9e9e9e;
 
@@ -26,6 +26,7 @@ h2 {
   font-size: 3em;
   @include lifeSavers;
   padding: 0;
+  text-align: center;
 }
 
 h5 {
@@ -34,11 +35,11 @@ h5 {
 
 .fa-angle-double-up {
   font-size: 2em;
-  color: $deep-orange-darken-4;
+  color: $cyan-darken-2;
 }
 
 a {
-  color: $deep-orange-darken-4;
+  color: $cyan-darken-2;
 }
 
 // Nav
@@ -71,11 +72,12 @@ a {
 .body-section {
   margin-top: 3.5em;
   margin-bottom: 5em;
+  margin-left: 3em;
 }
 
 .body-text {
   font-size: 1.4em;
-  margin-top: 0.3em;
+  margin-top: 0;
 }
 
 .divider {
@@ -83,23 +85,35 @@ a {
   background-color: $grey;
 }
 
+// Main - About
+.about-section {
+  text-align: center;
+}
+
+h1.about-section {
+  margin-bottom: 10px;
+}
+
 // Main - Work
 .card {
-  margin: 1rem 1.5rem;
+  margin: 1rem 3rem;
   padding: 0 !important;
-  background-color: $deep-orange-lighten-3;
+  background-color: $cyan-lighten-4;
 }
 
 .card-content {
   padding: 10px !important;
 }
 
-img.activator {
-  height: 220px;
+@media (min-width: 1092px) {
+  img.activator {
+    max-height: 205px;
+  }
 }
 
 p.card-title {
   font-size: 1.4em !important;
+  line-height: 1.4em !important;
 }
 
 .see-app {
